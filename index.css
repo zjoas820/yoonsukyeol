@@ -1,0 +1,31 @@
+.home_img {
+  position: relative;
+  margin: auto;
+  max-width: 1000px;
+  float: left;
+  margin-left: 400px;
+}
+
+.Works_img {
+  position: relative;
+  margin: auto;
+  max-width: 1000px;
+  float: left;
+  margin-left: 400px;
+}
+
+.about_img {
+  position: relative;
+  margin: auto;
+  max-width: 1000px;
+  float: left;
+  margin-left: 400px;
+}
+
+.contact_img {
+  position: relative;
+  margin: auto;
+  max-width: 1000px;
+  float: left;
+  margin-left: 400px;
+}

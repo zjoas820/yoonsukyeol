@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossor />
+    <link href="https://fonts.google.com/noto/specimen/Noto+Sans+KR" />
+
+    <style>
+      body {
+        font-family: "Noto Sans KR", sans-serif;
+        mrgin: 0;
+        height: 2000px;
+      }
+      section {
+        width: 100%;
+        height: 100vh;
+      }
+      section:nth-child(even) {
+        background-color: #ffccd8;
+      }
+      .wrapper {
+        padding-top: 88px;
+        max-width: 1200px;
+        margin: auto;
+      }
+      h1 {
+        color: #ff1d3e;
+        font-size: 48px;
+      }
+      h2 {
+        font-size: 32px;
+      }
+      h3 {
+        font-size: 24px;
+        font-weight: 300;
+      }
+      .btns {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 10;
+      }
+      .btns .container {
+        position: relative;
+        max-width: 900px;
+        background-color: #ff1d3e;
+        margin: auto;
+      }
+      .btns__menu {
+        display: flex;
+        justify-content: center;
+      }
+      .btns__menu .btn {
+        font-size: 16px;
+        font-weight: 700;
+        color: #ff1d3e;
+        width: 150px;
+        height: 40px;
+        border-radius: 6px;
+        margin: 4px;
+        cursor: pointer;
+        background-color: #ffffff;
+      }
+      .btns__menu .btn:hover {
+        background-color: #ffccd8;
+        border: 1px solid #ffccd8;
+        color: #ffffff;
+      }
+      button {
+        background-color: transparent;
+        border: none;
+        outline: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="btns">
+      <div class="container">
+        <div class="btns__menu">
+          <button class="btn home">홈</button>
+          <button class="btn about">윤석열에 대하여</button>
+          <button class="btn skills">학력사항</button>
+          <button class="btn works">배우자</button>
+          <button class="btn contact">활동</button>
+        </div>
+      </div>
+    </div>
+
+    <section id="home">
+      <div class="wrapper">
+        <h1>홈</h1>
+        <h2>대한민국 20대 대통령 '윤석열'</h2>
+        <h3>
+          2022년 당선된 대한민국의 20대 대통령이다.
+          <hr />
+          19대 대통령 문재인 정권 당시 검찰총장직이었으며,
+          <hr />
+          2021년 말 검찰총장직을 내려놓고 국민의힘 대통령 후보로 출마하였다.
+        </h3>
+      </div>
+      <div class="home_img">
+        <img src="/images/home1.png" alt="" />
+        <img src="/images/home2.png" alt="" />
+        <img src="/images/home3.png" alt="" />
+      </div>
+    </section>
+    <section id="about">
+      <div class="wrapper">
+        <h1>윤석열에 대하여</h1>
+        <h2>윤석열? 그게 누군데?</h2>
+        <h3>
+          윤석열 대통령은 1960년 12월 18일 서울특별시 성북구 삼선동에서 출생하였다.
+          <hr />
+          검찰총장으로 활동하던 시기와 현재까지 서울특별시 서초구 서초중앙로 188 아크로비스타에 사저를 두고 있으며,
+          <hr />
+          서울특별시 용산구 한남대로 128-24에 관저를 두고 있다.
+          <hr />
+          대통령 집무실을 청와대에서 용산구 국방부로 이전시키면서 본격적인 활동을 시작하였다.
+          <hr />
+          국회의원이나 행정지역의 관할 대표자(*서울시장 등)의 경험 없이 당선된 케이스로
+          <hr />
+          초기에는 국정 운영 능력이 부족하여 비판을 많이 받았으나, 최근에는 어느 정도의 숙련도가 쌓여 비교적 안정적인
+          상태이다.
+          <hr />
+          군인 월급 인상, 주간 근로 시간 확대, 일본 정부와의 관계 회복 등을 진행하고 있지만, 평가는 반반으로 갈린다.
+        </h3>
+      </div>
+    </section>
+    <section id="skills">
+      <div class="wrapper">
+        <h1>학력사항</h1>
+        <h2>학력이 어떻게 될까?</h2>
+        <h3>
+          충암 중학교 졸업
+          <hr />
+          충암 고등학교 졸업
+          <hr />
+          서울대학교 법과대학 법학 학사 학위 취득
+          <hr />
+          서울대학교 대학원 법학 석사 학위 취득
+        </h3>
+      </div>
+      <div class="about_img">
+        <img src="/images/about1.png" alt="" />
+        <img src="/images/about2.png" alt="" />
+        <img src="/images/about3.png" alt="" />
+      </div>
+    </section>
+    <section id="works">
+      <div class="wrapper">
+        <h1>배우자</h1>
+        <h2>배우자에 대하여</h2>
+        <h3>
+          윤석열 대통령의 배우자는 '김건희' 여사이다.
+          <hr />
+          1972년 09월 02일 서울특별시 성동구 명일동에서 출생하였다.
+          <hr />
+          윤석열 대통령과 동일하게 사저와 관저를 두고 있다.
+          <hr />
+          코바나 콘텐츠의 대표이다.
+        </h3>
+      </div>
+      <div class="Works_img">
+        <img src="/images/works1.png" alt="" />
+        <img src="/images/works2.png" alt="" />
+      </div>
+    </section>
+    <section id="contact">
+      <div class="wrapper">
+        <h1>활동</h1>
+        <h2></h2>
+        <h3></h3>
+      </div>
+      <div class="contact_img">
+        <img src="/images/contact1.png" alt="" />
+        <img src="/images/contact2.png" alt="" />
+        <img src="/images/contact3.png" alt="" />
+        <img src="/images/contact4.png" alt="" />
+      </div>
+    </section>
+
+    <script>
+      const btnHome = document.querySelector(".home");
+      const sectionHome = document.querySelector("#home");
+      btnHome.addEventListener("click", function () {
+        sectionHome.scrollIntoView({ behavior: "smooth", block: "center" });
+      });
+      const btnAbout = document.querySelector(".about");
+      const sectionAbout = document.querySelector("#about");
+      btnAbout.addEventListener("click", function () {
+        sectionAbout.scrollIntoView({ behavior: "smooth", block: "center" });
+      });
+      const btnSkills = document.querySelector(".skills");
+      const sectionSkills = document.querySelector("#skills");
+      btnSkills.addEventListener("click", function () {
+        sectionSkills.scrollIntoView({ behavior: "smooth", block: "center" });
+      });
+      const btnWorks = document.querySelector(".works");
+      const sectionWorks = document.querySelector("#works");
+      btnWorks.addEventListener("click", function () {
+        sectionWorks.scrollIntoView({ behavior: "smooth", block: "center" });
+      });
+      const btnContact = document.querySelector(".contact");
+      const sectionContact = document.querySelector("#contact");
+      btnContact.addEventListener("click", function () {
+        sectionContact.scrollIntoView({ behavior: "smooth", block: "center" });
+      });
+    </script>
+  </body>
+</html>
